@@ -11,6 +11,9 @@ def Basic_Tesseract(image):
 
 image_obj_basic = Image.open("UCD_Lehmann_0036.jpg")
 
+# converts jpg file extention to tiff
+image_obj_basic.save('UCD_Lehmann_0036.tiff')
+
 # run tesseract on image object
 text = pytesseract.image_to_string(image_obj_basic, lang='eng')
 
@@ -19,4 +22,4 @@ print(text)
 
 
 # Get verbose data including boxes, confidences, line and page numbers
-print(pytesseract.image_to_data(Image.open('test.png')))
+print(pytesseract.image_to_data(Image.open('UCD_Lehmann_0036.tiff')))
