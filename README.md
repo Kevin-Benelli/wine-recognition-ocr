@@ -44,3 +44,7 @@ The hOCR data output will look like this:
 4. Cancel noise
 5. Logical operation to output the text with the highest confidence
 6. Incorporate data training and testing
+
+Next Step Flow Chart:
+
+![](images/flow-chart.jpg)
