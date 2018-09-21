@@ -9,7 +9,7 @@
     3.) Numpy
     4.) openCV
 
-## Key features:
+## Key features of the ocr-python.py script:
 
 1. Executable Python script that is **highly resuable** - just add a for loop to itterate through as many images as you have
 

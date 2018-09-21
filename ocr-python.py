@@ -41,8 +41,8 @@ print("*************************************************************************
 # Log image to string recognition conversion for basic
 print(text)
 
-# Get verbose data including boxes, confidences, line and page numbers
-print(pytesseract.image_to_data(image_obj))
+# # Get verbose data including boxes, confidences, line and page numbers
+# print(pytesseract.image_to_data(image_obj))
 
 plt.imshow(image_obj_basic)
 
@@ -63,8 +63,8 @@ text = pytesseract.image_to_string(image_obj_filter, lang='eng')
 # log image to text translation
 print(text)
 
-# Get verbose data including boxes, confidences, line and page numbers
-print(pytesseract.image_to_data(image_obj))
+# # Get verbose data including boxes, confidences, line and page numbers
+# print(pytesseract.image_to_data(image_obj))
 
 
 # plot image filters
