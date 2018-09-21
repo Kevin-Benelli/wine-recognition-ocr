@@ -47,4 +47,4 @@ The hOCR data output will look like this:
 
 Next Step Flow Chart:
 
-![](images/flow-chart.jpg)
+![](images/Flow-Chart.jpg)
