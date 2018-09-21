@@ -29,8 +29,11 @@ Images Adjusting Filter:
 
 ![](images/images-plot.jpg)
 
-4. Displays hocr data
+4. Display the hOCR data by uncommenting this command for each filter
 
+![](images/hocr-command.jpg)
+
+The hOCR data output will look like this:
 ![](images/hocr.jpg)
 
 ### Next Steps:
