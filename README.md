@@ -11,15 +11,25 @@
 
 ## Key features of the ocr-python.py script:
 
-1. Executable Python script that is **highly resuable** - just add a for loop to itterate through as many images as you have
+1. Executable Python script that is **highly resuable** - just add a for-loop to itterate the execution of tesseract on up to as many images as want.
 
 ![](images/executable.jpg)
 
-2. Uses matplotlib to allow you to visualize how your filtering functions are actually manipulating images- display is based on a timer that you can control
+2. Multi-layered filtering- just execute the ocr-python.py script to run multiple filters through images to imporve accuracy of tesseract OCR recognition
+
+Basic Function Filter:
+
+![](images/basic-function.jpg)
+
+Images Adjusting Filter:
+
+![](images/filter-function.jpg)
+
+3. Uses matplotlib to allow you to visualize how your filtering functions are actually manipulating images- display is based on a timer that you can control
 
 ![](images/images-plot.jpg)
 
-3. Displays hocr data
+4. Displays hocr data
 
 ![](images/hocr.jpg)
 
