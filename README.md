@@ -35,14 +35,9 @@ Images Adjusting Filter:
 
 ### Next Steps:
 
-Cancel noise
-
 1. Enhance image quality
-
 2. Automate rotattion of image
-
 3. Deskewing / Border Removal
-
-4. Logical operation to output the text with the highest confidence
-
-5. Incorporate data training and testing
+4. Cancel noise
+5. Logical operation to output the text with the highest confidence
+6. Incorporate data training and testing
